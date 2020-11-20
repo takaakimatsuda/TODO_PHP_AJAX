@@ -1,0 +1,47 @@
+body {
+  background-image: url("../img/home_cover.jpg");
+  background-size: cover;
+}
+h2 {
+  font-family: cursive;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+#new_todo {
+  padding: 8px;
+  border-radius: 5px;
+  width: 250px;
+  margin: 30px auto 15px;
+  font-size: 16px;
+}
+
+ul#todos {
+  background: #7EB77D;
+  width: 350px;
+  height: 450px;
+  overflow: auto;
+  margin-top: 50px;
+  padding: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+span.todo_title {
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  line-height: 2;
+  text-align: left;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#todo_template {
+  display: none !important;
+}
