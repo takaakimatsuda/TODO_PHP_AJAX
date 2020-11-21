@@ -6,7 +6,7 @@ $(function() {
   // delete
   $('#todos').on('click', '.delete_todo', function() {
     // idを取得
-    var id = $(this).parents('li').data('id');
+    const id = $(this).parents('li').data('id');
     // ajax処理
     $.post('_ajax.php', {
       id: id,
@@ -20,7 +20,7 @@ $(function() {
   // create
   $('#new_todo_form').on('submit', function() {
     // titleを取得
-    var title = $('#new_todo').val();
+    const title = $('#new_todo').val();
     // ajax処理
     $.post('_ajax.php', {
       title: title,
@@ -28,7 +28,7 @@ $(function() {
       token: $('#token').val()
     }, function(res) {
       // liを追加
-      var $li = $('#todo_template').clone();
+      const $li = $('#todo_template').clone();
       $li
         .attr('id', 'todo_' + res.id)
         .data('id', res.id)
