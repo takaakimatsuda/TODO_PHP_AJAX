@@ -3,7 +3,7 @@
 
 ## URL
 
-- heroku:
+- heroku: https://todo-ajax-list.herokuapp.com/ 
 - AWS：
 
 ## 技術スタック
@@ -16,7 +16,6 @@
 ### 開発環境
 
 - MAMP
-- MySQL 5.7.30
 
 ### テスト環境
 
@@ -24,8 +23,9 @@
 
 ### 本番環境
 
+- heroku
 - AWS (Elastic Beanstalk)
-- Apache 2.4.46
+- Workbench 6.3.4
 
 ## 機能一覧
 - タスクの追加・削除
