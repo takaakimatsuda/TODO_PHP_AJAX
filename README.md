@@ -4,7 +4,6 @@
 ## URL
 
 - heroku: https://todo-ajax-list.herokuapp.com/ 
-- AWS：
 
 ## 技術スタック
 
@@ -17,15 +16,10 @@
 
 - MAMP
 
-### テスト環境
-
-- 
-
 ### 本番環境
 
 - heroku
-- AWS (Elastic Beanstalk)
-- Workbench 6.3.4
+- ClearDB MySQL
 
 ## 機能一覧
 - タスクの追加・削除
