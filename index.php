@@ -6,12 +6,9 @@ require_once(__DIR__ . '/config.php');
 require_once(__DIR__ . '/functions.php');
 require_once(__DIR__ . '/Todo.php');
 
-// get todos
+// 変数todosを取り出す
 $todoApp = new \MyApp\Todo();
 $todos = $todoApp->getAll();
-
-// var_dump($todos);
-// exit;
 
 ?>
 <!DOCTYPE html>
@@ -25,6 +22,7 @@ $todos = $todoApp->getAll();
 <body>
   <div class="app-title text-center">
       <h2>TO DO LIST</h2>
+      <!-- ajaxを使うのでactionの中身は空 -->
       <form action="" id="new_todo_form">
         <input type="text" id="new_todo" placeholder="Enter the task">
       </form>

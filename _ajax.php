@@ -7,7 +7,7 @@ require_once(__DIR__ . '/functions.php');
 require_once(__DIR__ . '/Todo.php');
 
 $todoApp = new \MyApp\Todo();
-
+// POSTされた時に受け取った配列をJSON形式で返す
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   try {
     $res = $todoApp->post();

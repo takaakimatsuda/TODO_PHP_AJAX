@@ -11,6 +11,7 @@ $(function() {
     $.post('_ajax.php', {
       id: id,
       mode: 'delete',
+      // ビューのトークンの値を送信
       token: $('#token').val()
     }, function() {
       $('#todo_' + id).fadeOut(800);
