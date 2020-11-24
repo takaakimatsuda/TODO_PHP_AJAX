@@ -3,7 +3,7 @@
 
 ## URL
 
-- heroku: https://todo-ajax-list.herokuapp.com/ 
+https://todo-ajax-list.herokuapp.com/ 
 
 ## 技術スタック
 
